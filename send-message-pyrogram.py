@@ -8,8 +8,8 @@ from os import environ
 from dotenv import load_dotenv
 load_dotenv()
 
-api_id = int(environ["API_ID"])
-api_hash = environ["API_HASH"]
+api_id = int(environ["8288457"])
+api_hash = environ["583ce464b47ed1b7b26e80e3fd278714"]
 session_string = environ["SESSION_STRING"]
 
 app = Client(session_string, api_id, api_hash)
